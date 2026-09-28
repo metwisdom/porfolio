@@ -1,7 +1,7 @@
 :root {
     --ink: #26312b;
-    --page: #e3edf5;
-    --green: #34483b;
+    --page: #d9efff;
+    --green: #173b63;
     --accent: #b56b3b;
     --border: #c4d0c5;
 }
@@ -26,7 +26,7 @@ body::before {
     position: fixed;
     z-index: -1;
     inset: 0;
-    background-image: linear-gradient(rgba(227, 237, 245, 0.92), rgba(227, 237, 245, 0.92)), url("WhatsApp Image 2026-09-28 at 09.35.11.jpeg");
+    background-image: linear-gradient(rgba(217, 239, 255, 0.92), rgba(217, 239, 255, 0.92)), url("WhatsApp Image 2026-09-28 at 09.35.11.jpeg");
     background-position: center;
     background-size: cover;
     content: "";
@@ -105,6 +105,18 @@ section {
     border: 1px solid var(--border);
     border-left: 4px solid var(--accent);
     background: #fff;
+}
+
+#about {
+    font-family: "Lora", Georgia, serif;
+}
+
+#works {
+    font-family: "Space Grotesk", Arial, sans-serif;
+}
+
+#socials {
+    font-family: "DM Sans", Arial, sans-serif;
 }
 
 .eyebrow {
