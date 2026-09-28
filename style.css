@@ -131,12 +131,23 @@ h2 {
     font-size: 1.5rem;
 }
 
+.about-content {
+    display: grid;
+    grid-template-columns: minmax(0, 320px) minmax(0, 1fr);
+    align-items: start;
+    gap: 24px;
+}
+
 .profile-photo {
     display: block;
-    width: min(100%, 320px);
+    width: 100%;
     height: auto;
-    margin: 16px 0;
+    margin: 0;
     border: 2px solid var(--border);
+}
+
+.about-copy p:first-child {
+    margin-top: 0;
 }
 
 footer {
@@ -151,6 +162,14 @@ footer {
 
     section {
         padding: 18px;
+    }
+
+    .about-content {
+        grid-template-columns: 1fr;
+    }
+
+    .profile-photo {
+        max-width: 320px;
     }
 
     h1 {
