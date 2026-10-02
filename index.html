@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Wisdom Njoroge</title>
+    <title>Wisdom Njoroge | Portfolio</title>
+    <meta name="description" content="Portfolio of Wisdom Njoroge, a software development student passionate about building creative digital experiences.">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Lora:wght@400;500;700&family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
@@ -11,8 +12,8 @@
 </head>
 <body>
     <header class="site-header">
-        <a class="site-brand" href="index.html">
-            <img class="site-logo" src="WhatsApp Image 2026-09-28 at 09.35.11.jpeg" alt="">
+        <a class="site-brand" href="#top" aria-label="Wisdom Njoroge home">
+            <img class="site-logo" src="WhatsApp Image 2026-09-28 at 09.35.11.jpeg" alt="Wisdom Njoroge portrait">
             <span class="site-title">Wisdom Njoroge</span>
         </a>
         <nav aria-label="Main navigation">
@@ -23,50 +24,138 @@
             </ul>
         </nav>
     </header>
-    <main>
+
+    <main id="top">
+        <section class="hero">
+            <div class="hero-copy">
+                <p class="eyebrow">Portfolio / 2026</p>
+                <h1>Building thoughtful digital experiences.</h1>
+                <p class="lead">
+                    I’m Wisdom, a software development student with a strong interest in web design,
+                    programming fundamentals, and creating solutions that are both functional and visually engaging.
+                </p>
+                <div class="cta-group">
+                    <a class="button primary" href="#works">View Projects</a>
+                    <a class="button secondary" href="#socials">Get in Touch</a>
+                </div>
+                <ul class="skill-tags" aria-label="Skills">
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>Web Design</li>
+                </ul>
+            </div>
+            <div class="hero-panel" aria-label="Profile summary">
+                <div class="panel-card highlight">
+                    <span class="panel-label">Current focus</span>
+                    <strong>Full-stack learning</strong>
+                </div>
+                <div class="panel-card">
+                    <span class="panel-label">Learning path</span>
+                    <strong>Moringa School</strong>
+                </div>
+                <div class="panel-card">
+                    <span class="panel-label">Interests</span>
+                    <strong>Rugby, photography, football</strong>
+                </div>
+            </div>
+        </section>
+
         <section id="about">
-            <p class="eyebrow">Portfolio / 2026</p>
-            <h1>Background</h1>
+            <p class="eyebrow">About</p>
+            <h2>Curious, creative, and growing as a developer.</h2>
             <div class="about-content">
                 <img
                     class="profile-photo"
                     src="WhatsApp Image 2026-09-28 at 09.35.11.jpeg"
-                    alt="Wisdom looking at his phone"
+                    alt="Portrait of Wisdom Njoroge"
                 >
                 <div class="about-copy">
-                    <br>My name is Wisdom Njoroge, and I have been passionate about software development since high school.</br>
-                    <br>I have attended several technology summits and completed projects focused on programming fundamentals. I am currently taking a software development course at Moringa School, working toward becoming a well-rounded full-stack developer.</br>
-                    <br>I am familiar with HTML, CSS, and a beginner JavaScript. 
-                        Outside of technology, I enjoy rugby and photography, a car entuthiast.
-                        I have also participated in several national robotics competitions.</br>
-                    <br>I am also a very big fan of football. I have been a fan of Liverpool Football Club since I was a child.</br>
+                    <p>
+                        My name is Wisdom Njoroge, and I have been passionate about software development since high school.
+                        I have attended several technology summits and developed projects focused on programming fundamentals,
+                        and I am currently studying software development at Moringa School to grow into a well-rounded full-stack developer.
+                    </p>
+                    <p>
+                        I am comfortable with HTML, CSS, and introductory JavaScript, and I enjoy creating interfaces that are both
+                        clean and user-friendly. Outside of technology, I enjoy rugby, photography, and football. I have also taken part
+                        in national robotics competitions, which helped nurture my problem-solving mindset and interest in innovation.
+                    </p>
+                    <p>
+                        One of my long-standing passions is Liverpool Football Club, a team I have supported since childhood.
                     </p>
                 </div>
-                
             </div>
         </section>
 
         <section id="works">
             <p class="eyebrow">Selected work</p>
-            <h2>Projects with a point of view.</h2>
-            <p>
-                <button><a href="https://github.com/repos">View projects</a> </button> 
-                <br>
-                Here you can see my progression throughout my software journey with the repositories I made and projects I worked on.</br>
-            </p>
+            <h2>Projects that reflect my learning journey.</h2>
+            <div class="projects-grid">
+                <article class="project-card">
+                    <span class="project-tag">JavaScript</span>
+                    <h3><a href="https://github.com/metwisdom/wednesday-js" target="_blank" rel="noreferrer">wednesday-js</a></h3>
+                    <p>
+                        A JavaScript-focused project showing my practical work with coding exercises and frontend logic.
+                    </p>
+                    <ul>
+                        <li>JS</li>
+                        <li>Practice</li>
+                    </ul>
+                </article>
+
+                <article class="project-card">
+                    <span class="project-tag">Java</span>
+                    <h3><a href="https://github.com/metwisdom/java_activity_repo" target="_blank" rel="noreferrer">java_activity_repo</a></h3>
+                    <p>
+                        A repository focused on Java learning activities and solving programming tasks through structured practice.
+                    </p>
+                    <ul>
+                        <li>Java</li>
+                        <li>Exercises</li>
+                    </ul>
+                </article>
+
+                <article class="project-card">
+                    <span class="project-tag">Arrays Lab</span>
+                    <h3><a href="https://github.com/metwisdom/phase-0-js-arrays-lab" target="_blank" rel="noreferrer">phase-0-js-arrays-lab</a></h3>
+                    <p>
+                        A JavaScript arrays lab used to strengthen core programming concepts like iteration and data manipulation.
+                    </p>
+                    <ul>
+                        <li>Arrays</li>
+                        <li>Logic</li>
+                    </ul>
+                </article>
+
+                <article class="project-card">
+                    <span class="project-tag">Portfolio</span>
+                    <h3><a href="https://github.com/metwisdom/porfolio" target="_blank" rel="noreferrer">porfolio</a></h3>
+                    <p>
+                        This repository contains the portfolio work I’m building to showcase my growth in web development and design.
+                    </p>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                    </ul>
+                </article>
+            </div>
         </section>
 
         <section id="socials">
             <p class="eyebrow">Stay in touch</p>
             <h2>Say hello.</h2>
-            <p><a href="mailto:wisdomnjoroge16@gmail.com">Email: wisdomnjoroge16@gmail.com</a></p>
-            <p><a href="https://www.instagram.com/metwisdom">Instagram: @metwisdom</a></p>
-            <p><a href="https://github.com/">GitHub</a></p>
-            <p><a href="tel:+254797110231">Phone: +254 797 110 231</a></p>
+            <div class="contact-list">
+                <p><a href="mailto:wisdomnjoroge16@gmail.com">wisdomnjoroge16@gmail.com</a></p>
+                <p><a href="https://www.instagram.com/metwisdom" target="_blank" rel="noreferrer">Instagram: @metwisdom</a></p>
+                <p><a href="https://github.com/metwisdom" target="_blank" rel="noreferrer">GitHub: @metwisdom</a></p>
+                <p><a href="tel:+254797110231">+254 797 110 231</a></p>
+            </div>
         </section>
     </main>
+
     <footer>
-        <p>&copy; 2026 Wisdom</p>
+        <p>&copy; 2026 Wisdom Njoroge</p>
     </footer>
 </body>
 </html>
